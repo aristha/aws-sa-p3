@@ -1,0 +1,14 @@
+Research and analyze which of the vulnerabilities appear to be related to the code that was deployed for the environment in this project.
+
+Bonus - provide recommendations on how to remediate the vulnerabilities.
+
+- S3 server side encryption not enabled
+- S3 bucket logging not enabled
+
+- Should use SSM to manage EC2 instances
+
+- http to https redirection not enabled in ELB
+- ELB logging not enabled
+
+- Web app SG should not allow SSH from all sources
+- VPC default SG should be closed
